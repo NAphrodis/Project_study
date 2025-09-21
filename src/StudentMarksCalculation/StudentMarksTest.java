@@ -22,7 +22,7 @@ class Student {
         return sum / 3.0;
     }
 
-    // Method to compute grade
+    
     public String getGrade() {
         double avg = getAverage();
         if (avg >= 80) return "A";
@@ -31,7 +31,7 @@ class Student {
         else return "Fail";
     }
 
-    // Display student info
+
     public void displayStudent() {
         System.out.println("\n--- Student Details ---");
         System.out.println("ID: " + id);
@@ -93,3 +93,4 @@ public class StudentMarksTest {
         sc.close();
     }
 }
+
